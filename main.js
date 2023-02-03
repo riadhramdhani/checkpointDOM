@@ -7,7 +7,7 @@ var cards= Array.from(document.querySelectorAll(".card"));
 var total=document.querySelector(".total-price");
 var hearts=Array.from(document.querySelectorAll(".fa-heart"));
 
-// fonction Total
+// fonction Total functionriadh
 function totalPrices(){
     let sum=0;
     for (let i=0; i<unitiesPrices; i++){
